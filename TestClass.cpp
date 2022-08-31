@@ -8,3 +8,7 @@
 TestClass::~TestClass() {
     std::cout << "Pointer deleting..." << std::endl;
 }
+
+void TestClass::shareWisdom() {
+    std::cout << "Why are you bothering me. It's been " << ++counter << " times already!" << std::endl;
+}

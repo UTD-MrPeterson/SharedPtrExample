@@ -8,8 +8,13 @@
 
 class TestClass {
 public:
-    TestClass() {}
+    TestClass() = default;
     ~TestClass();
+
+    void shareWisdom();
+
+private:
+    int counter = 0;
 };
 
 
